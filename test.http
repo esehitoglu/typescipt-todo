@@ -1,0 +1,18 @@
+POST http://localhost:4000/add
+Content-Type: application/json
+
+{
+    "text":"3"
+}
+
+###
+
+GET http://localhost:4000/todos
+
+###
+
+DELETE http://localhost:4000/deleteTodo/0.42772711988091716
+
+###
+
+POST http://localhost:4000/toggleTodo/0.30316531780709877
